@@ -13,7 +13,7 @@ import java.util.Set;
  * @author Farzana
  */
 /*
-1. make your class final, so taht no other class ca extend it
+1. make your class final, so that no other class can extend it
 2. make all instance variables private and final so that they ae initialized only once insdie the constructor and never modified afterward 
 3. provide only getter methods donot provide setter method 
 4. if the class holds a mutable object . make sure to alywas return a clone copy of the field and never return the real object instance
